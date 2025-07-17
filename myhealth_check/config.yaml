@@ -1,7 +1,7 @@
 name: "My Health Check"
 url: "https://github.com/kwatkins/homeassistant_addons/tree/main/myhealth_check"
 description: "A simple health check for your home assistant instance"
-version: "6.0"
+version: "7.0"
 slug: myhealth_check
 init: true
 arch:
@@ -12,8 +12,8 @@ arch:
   - i386
 startup: services
 ports:
-  8090/tcp: 8090
+  9091/tcp: 9091
 options:
-  port: 8090
+  port: 9091
 schema: 
   port: int
