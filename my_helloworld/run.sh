@@ -1,3 +1,4 @@
 #!/usr/bin/with-contenv bashio
+echo "PONG"
 
-echo "Hello world!"
+python3 -m http.server 9090
