@@ -1,13 +1,15 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:13.2.0
-FROM ${BUILD_FROM}
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 RUN apk add --no-cache python3
 
-WORKDIR /data
+#WORKDIR /data
 
 COPY run.sh /
 COPY server.py /
+COPY rootfs/ /
+
 RUN chmod +x /run.sh /server.py
 
-COPY rootfs/ /
+
 
