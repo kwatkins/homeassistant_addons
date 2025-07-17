@@ -1,0 +1,11 @@
+url: "https://github.com/kwatkins/homeassistant_addons/tree/main/my_helloworld"
+description: "My first real add-on!"
+version: "1.0.0"
+slug: "my_hello_world"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
