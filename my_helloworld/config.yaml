@@ -1,7 +1,7 @@
 url: "https://github.com/kwatkins/homeassistant_addons/tree/main/my_helloworld"
 description: "My first real add-on!"
 version: "1.0.0"
-slug: "my_hello_world"
+slug: "my_helloworld"
 init: false
 arch:
   - aarch64
