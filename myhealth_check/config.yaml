@@ -1,7 +1,7 @@
 name: "My Health Check"
 url: "https://github.com/kwatkins/homeassistant_addons/tree/main/myhealth_check"
 description: "A simple health check for your home assistant instance"
-version: "7.0"
+version: "8.0"
 slug: myhealth_check
 init: true
 arch:
