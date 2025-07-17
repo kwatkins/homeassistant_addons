@@ -1,8 +1,9 @@
----
-version: "5.0"
+name: "My Health Check"
 url: "https://github.com/kwatkins/homeassistant_addons/tree/main/myhealth_check"
 description: "A simple health check for your home assistant instance"
+version: "5.0"
 slug: myhealth_check
+init: false
 arch:
   - aarch64
   - amd64
@@ -16,4 +17,4 @@ options:
   port: 8090
 schema: 
   port: int
-init: false
+  
